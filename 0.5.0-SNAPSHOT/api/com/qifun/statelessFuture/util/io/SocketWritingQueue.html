@@ -249,7 +249,10 @@ the enqueue operation will be ignored.
 </p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
                 <span class="name">@tailrec</span><span class="args">()</span>
               
-        </dd></dl></div>
+        </dd><dt>Note</dt><dd><span class="cmt"><p>This <a href="" class="extype" name="com.qifun.statelessFuture.util.io.SocketWritingQueue">SocketWritingQueue</a> will change <code>position</code> in each of <code>buffers</code>,
+but will not change the content of these <code>buffers</code>.
+To prevent this behavior, please <code>duplicate</code> these <code>buffers</code> before <a href="#enqueue(buffer:java.nio.ByteBuffer):Unit" class="extmbr" name="com.qifun.statelessFuture.util.io.SocketWritingQueue#enqueue">enqueue</a>.
+</p></span></dd></dl></div>
     </li><li name="com.qifun.statelessFuture.util.io.SocketWritingQueue#enqueue" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="enqueue(buffers:java.nio.ByteBuffer*):Unit"></a>
       <a id="enqueue(ByteBuffer*):Unit"></a>
@@ -271,7 +274,10 @@ the enqueue operation will be ignored.
 </p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
                 <span class="name">@tailrec</span><span class="args">()</span>
               
-        </dd></dl></div>
+        </dd><dt>Note</dt><dd><span class="cmt"><p>This <a href="" class="extype" name="com.qifun.statelessFuture.util.io.SocketWritingQueue">SocketWritingQueue</a> will change <code>position</code> in each of <code>buffers</code>,
+but will not change the content of these <code>buffers</code>.
+To prevent this behavior, please <code>duplicate</code> these <code>buffers</code> before <a href="#enqueue(buffer:java.nio.ByteBuffer):Unit" class="extmbr" name="com.qifun.statelessFuture.util.io.SocketWritingQueue#enqueue">enqueue</a>.
+</p></span></dd></dl></div>
     </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="eq(x$1:AnyRef):Boolean"></a>
       <a id="eq(AnyRef):Boolean"></a>
@@ -486,8 +492,8 @@ the enqueue operation will be ignored.
         <img src="../../../../../lib/permalink.png" />
       </a>
     </span>
-      <p class="shortcomment cmt">优雅的关闭本<a href="" class="extype" name="com.qifun.statelessFuture.util.io.SocketWritingQueue">SocketWritingQueue</a>。</p><div class="fullcomment"><div class="comment cmt"><p>优雅的关闭本<a href="" class="extype" name="com.qifun.statelessFuture.util.io.SocketWritingQueue">SocketWritingQueue</a>。</p><p>如果本<a href="" class="extype" name="com.qifun.statelessFuture.util.io.SocketWritingQueue">SocketWritingQueue</a>队列中存在尚未发送的数据，那么只有当这些数据全部交给<a href="#socket:java.nio.channels.AsynchronousSocketChannel" class="extmbr" name="com.qifun.statelessFuture.util.io.SocketWritingQueue#socket">socket</a>发送后，<a href="#socket:java.nio.channels.AsynchronousSocketChannel" class="extmbr" name="com.qifun.statelessFuture.util.io.SocketWritingQueue#socket">socket</a>才会真正被关闭。
-如果多次调用<a href="#shutDown():Unit" class="extmbr" name="com.qifun.statelessFuture.util.io.SocketWritingQueue#shutDown">shutDown</a>，只有第一次调用有效，后面几次会被忽略。
+      <p class="shortcomment cmt">优雅的关闭本<a href="" class="extype" name="com.qifun.statelessFuture.util.io.SocketWritingQueue">SocketWritingQueue</a>。</p><div class="fullcomment"><div class="comment cmt"><p>优雅的关闭本<a href="" class="extype" name="com.qifun.statelessFuture.util.io.SocketWritingQueue">SocketWritingQueue</a>。</p><p>如果本<a href="" class="extype" name="com.qifun.statelessFuture.util.io.SocketWritingQueue">SocketWritingQueue</a>队列中存在尚未发送的数据，
+那么只有当这些数据全部交给<a href="#socket:java.nio.channels.AsynchronousSocketChannel" class="extmbr" name="com.qifun.statelessFuture.util.io.SocketWritingQueue#socket">socket</a>发送后，<a href="#socket:java.nio.channels.AsynchronousSocketChannel" class="extmbr" name="com.qifun.statelessFuture.util.io.SocketWritingQueue#socket">socket</a>才会真正被关闭。</p><p>如果多次调用<a href="#shutDown():Unit" class="extmbr" name="com.qifun.statelessFuture.util.io.SocketWritingQueue#shutDown">shutDown</a>，只有第一次调用有效，后面几次会被忽略。
 </p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
                 <span class="name">@tailrec</span><span class="args">()</span>
               

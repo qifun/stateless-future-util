@@ -28,7 +28,7 @@
         </head>
         <body class="type">
       <div id="definition">
-        <a href="Promise$.html" title="Go to companion"><img src="../../../../lib/class_to_object_big.png" /></a>
+        <a href="Promise$.html" title="Go to companion"><img src="../../../../lib/trait_to_object_big.png" /></a>
         <p id="owner"><a href="../../../package.html" class="extype" name="com">com</a>.<a href="../../package.html" class="extype" name="com.qifun">qifun</a>.<a href="../package.html" class="extype" name="com.qifun.statelessFuture">statelessFuture</a>.<a href="package.html" class="extype" name="com.qifun.statelessFuture.util">util</a></p>
         <h1><a href="Promise$.html" title="Go to companion">Promise</a></h1> <span class="permalink">
       <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise" title="Permalink" target="_top">
@@ -39,21 +39,24 @@
 
       <h4 id="signature" class="signature">
       <span class="modifier_kind">
-        <span class="modifier">final </span>
-        <span class="kind">class</span>
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <span class="name">Promise</span><span class="tparams">[<span name="AwaitResult">AwaitResult</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyVal">AnyVal</span> with <span class="extype" name="com.qifun.statelessFuture.Future.Stateful">Stateful</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]</span>
+        <span class="name">Promise</span><span class="tparams">[<span name="AwaitResult">AwaitResult</span>]</span><span class="result"> extends <span class="extype" name="com.qifun.statelessFuture.Future.Stateful">Stateful</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]</span>
       </span>
       </h4>
       
           <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>A <span class="extype" name="Future.Stateful">Future.Stateful</span> that will be completed when another <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a> being completed.</p></div><div class="toggleContainer block">
           <span class="toggle">Linear Supertypes</span>
-          <div class="superTypes hiddenContent"><span class="extype" name="com.qifun.statelessFuture.Awaitable.Stateful">Stateful</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>, <span class="extype" name="scala.Unit">Unit</span>], <span class="extype" name="com.qifun.statelessFuture.Awaitable">Awaitable</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>, <span class="extype" name="scala.Unit">Unit</span>], <span class="extype" name="scala.AnyVal">AnyVal</span>, <span class="extype" name="scala.Any">Any</span></div>
-        </div><div class="toggleContainer block diagram-container" id="inheritance-diagram-container">
+          <div class="superTypes hiddenContent"><span class="extype" name="com.qifun.statelessFuture.Awaitable.Stateful">Stateful</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>, <span class="extype" name="scala.Unit">Unit</span>], <span class="extype" name="com.qifun.statelessFuture.Awaitable">Awaitable</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>, <span class="extype" name="scala.Unit">Unit</span>], <span class="extype" name="scala.Any">Any</span></div>
+        </div><div class="toggleContainer block">
+            <span class="toggle">Known Subclasses</span>
+            <div class="subClasses hiddenContent"><a href="CancellablePromise$$AnyValCancellablePromise.html" class="extype" name="com.qifun.statelessFuture.util.CancellablePromise.AnyValCancellablePromise">AnyValCancellablePromise</a>, <a href="Promise$$AnyValPromise.html" class="extype" name="com.qifun.statelessFuture.util.Promise.AnyValPromise">AnyValPromise</a>, <a href="CancellablePromise.html" class="extype" name="com.qifun.statelessFuture.util.CancellablePromise">CancellablePromise</a></div>
+          </div><div class="toggleContainer block diagram-container" id="inheritance-diagram-container">
                 <span class="toggle diagram-link">Type Hierarchy</span>
                 <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#diagrams" target="_blank" class="diagram-help">Learn more about scaladoc diagrams</a>
-                <div class="diagram" id="inheritance-diagram"><svg class="class-diagram" id="graph6" viewBox="0.00 0.00 239.00 120.00" height="120pt" width="239pt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1 1) rotate(0) translate(4 116)" class="graph" id="graph0"><polygon points="-4,4 -4,-116 235,-116 235,4 -4,4" stroke="none" fill="white"></polygon><g class="cluster" id="clust1"></g><g class="cluster" id="clust2"></g><!-- node0 --><g class="node this class" id="graph6_0"><g id="a_this class|graph6_0"><a xlink:title="com.qifun.statelessFuture.util.Promise (this class)" xlink:href="#inheritance-diagram"><polygon points="169.25,-50 30.75,-50 30.75,-24 169.25,-24 169.25,-50" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-43" x="43" preserveAspectRatio="xMinYMin meet" height="12px" width="12px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-34.5" x="63" text-anchor="start">Promise[AwaitResult]</text></a></g></g><!-- node1 --><g class="node class" id="graph6_1"><g id="a_class|graph6_1"><a xlink:title="scala.AnyVal"><polygon points="76.25,-112 -0.25,-112 -0.25,-86 76.25,-86 76.25,-112" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-105" x="12" preserveAspectRatio="xMinYMin meet" height="12px" width="12px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-96.5" x="32" text-anchor="start">AnyVal</text></a></g></g><!-- node1&#45;&gt;node0 --><g class="edge inheritance" id="graph6_1_0"><g id="a_inheritance|graph6_1_0"><a xlink:title="Promise[AwaitResult] is a subtype of AnyVal"><path d="M54.2312,-82.2924C64.6201,-72.2386 77.8966,-59.3904 87.472,-50.1238" stroke="#d4d4d4" fill="none"></path><polygon points="52.9227,-81.1234 50.5466,-85.8581 55.3567,-83.6385 52.9227,-81.1234" stroke="#d4d4d4" fill="none"></polygon></a></g></g><!-- node2 --><g class="node trait" id="graph6_2"><g id="a_trait|graph6_2"><a xlink:title="com.qifun.statelessFuture.Awaitable.Stateful"><polygon points="231,-112 95,-112 95,-86 231,-86 231,-112" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../../../lib/trait_diagram.png" y="-105" x="107" preserveAspectRatio="xMinYMin meet" height="12px" width="12px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-96.5" x="127" text-anchor="start">Stateful[AwaitResult]</text></a></g></g><!-- node2&#45;&gt;node0 --><g class="edge inheritance" id="graph6_2_0"><g id="a_inheritance|graph6_2_0"><a xlink:title="Promise[AwaitResult] is a subtype of Stateful[AwaitResult]"><path d="M146.507,-82.2924C135.951,-72.2386 122.46,-59.3904 112.73,-50.1238" stroke="#d4d4d4" fill="none"></path><polygon points="145.423,-83.677 150.251,-85.8581 147.837,-81.1425 145.423,-83.677" stroke="#d4d4d4" fill="none"></polygon></a></g></g></g></svg></div>
+                <div class="diagram" id="inheritance-diagram"><svg class="class-diagram" id="graph5" viewBox="0.00 0.00 387.00 158.00" height="158pt" width="387pt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1 1) rotate(0) translate(4 154)" class="graph" id="graph0"><polygon points="-4,4 -4,-154 383,-154 383,4 -4,4" stroke="none" fill="white"></polygon><g class="cluster" id="clust1"></g><g class="cluster" id="clust2"></g><!-- node0 --><g class="node this trait" id="graph5_0"><g id="a_this trait|graph5_0"><a xlink:title="com.qifun.statelessFuture.util.Promise (this trait)" xlink:href="#inheritance-diagram"><polygon points="253.25,-88 114.75,-88 114.75,-62 253.25,-62 253.25,-88" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../../../lib/trait_diagram.png" y="-81" x="127" preserveAspectRatio="xMinYMin meet" height="12px" width="12px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72.5" x="147" text-anchor="start">Promise[AwaitResult]</text></a></g></g><!-- node1 --><g class="node class" id="graph5_1"><g id="a_class|graph5_1"><a xlink:title="com.qifun.statelessFuture.util.Promise.AnyValPromise" xlink:href="Promise$$AnyValPromise.html#inheritance-diagram"><polygon points="170.25,-26 -0.25,-26 -0.25,-0 170.25,-0 170.25,-26" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-19" x="12" preserveAspectRatio="xMinYMin meet" height="12px" width="12px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10.5" x="32" text-anchor="start">AnyValPromise[AwaitResult]</text></a></g></g><!-- node0&#45;&gt;node1 --><g class="edge inheritance" id="graph5_0_1"><g id="a_inheritance|graph5_0_1"><a xlink:title="AnyValPromise[AwaitResult] is a subtype of Promise[AwaitResult]"><path d="M159.382,-59.0801C142.614,-48.9173 120.696,-35.6342 105.004,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="158.783,-60.7632 163.966,-61.8581 160.597,-57.77 158.783,-60.7632" stroke="#d4d4d4" fill="none"></polygon></a></g></g><!-- node2 --><g class="node trait" id="graph5_2"><g id="a_trait|graph5_2"><a xlink:title="com.qifun.statelessFuture.util.CancellablePromise" xlink:href="CancellablePromise.html#inheritance-diagram"><polygon points="379,-26 189,-26 189,-0 379,-0 379,-26" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../../../lib/trait_diagram.png" y="-19" x="201" preserveAspectRatio="xMinYMin meet" height="12px" width="12px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10.5" x="221" text-anchor="start">CancellablePromise[AwaitResult]</text></a></g></g><!-- node0&#45;&gt;node2 --><g class="edge inheritance" id="graph5_0_2"><g id="a_inheritance|graph5_0_2"><a xlink:title="CancellablePromise[AwaitResult] is a subtype of Promise[AwaitResult]"><path d="M208.866,-59.0801C225.804,-48.9173 247.943,-35.6342 263.794,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="207.624,-57.785 204.236,-61.8581 209.424,-60.7862 207.624,-57.785" stroke="#d4d4d4" fill="none"></polygon></a></g></g><!-- node3 --><g class="node trait" id="graph5_3"><g id="a_trait|graph5_3"><a xlink:title="com.qifun.statelessFuture.Awaitable.Stateful"><polygon points="252,-150 116,-150 116,-124 252,-124 252,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../../../lib/trait_diagram.png" y="-143" x="128" preserveAspectRatio="xMinYMin meet" height="12px" width="12px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134.5" x="148" text-anchor="start">Stateful[AwaitResult]</text></a></g></g><!-- node3&#45;&gt;node0 --><g class="edge inheritance" id="graph5_3_0"><g id="a_inheritance|graph5_3_0"><a xlink:title="Promise[AwaitResult] is a subtype of Stateful[AwaitResult]"><path d="M184,-118.683C184,-108.896 184,-96.9026 184,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="182.25,-118.858 184,-123.858 185.75,-118.858 182.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g></g></g></svg></div>
               </div></div>
         
 
@@ -71,7 +74,7 @@
                 <span class="filtertype">Inherited<br />
                 </span>
                 <ol id="linearization">
-                  <li class="in" name="com.qifun.statelessFuture.util.Promise"><span>Promise</span></li><li class="in" name="com.qifun.statelessFuture.Awaitable.Stateful"><span>Stateful</span></li><li class="in" name="com.qifun.statelessFuture.Awaitable"><span>Awaitable</span></li><li class="in" name="scala.AnyVal"><span>AnyVal</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                  <li class="in" name="com.qifun.statelessFuture.util.Promise"><span>Promise</span></li><li class="in" name="com.qifun.statelessFuture.Awaitable.Stateful"><span>Stateful</span></li><li class="in" name="com.qifun.statelessFuture.Awaitable"><span>Awaitable</span></li><li class="in" name="scala.Any"><span>Any</span></li>
                 </ol>
               </div><div id="ancestors">
             <span class="filtertype"></span>
@@ -93,10 +96,47 @@
 
         
 
-        
+        <div id="values" class="values members">
+              <h3>Abstract Value Members</h3>
+              <ol><li name="scala.Any#getClass" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@getClass():Class[_]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="com.qifun.statelessFuture.util.Promise#state" visbl="prt" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="state:java.util.concurrent.atomic.AtomicReference[Either[scala.collection.immutable.Queue[(AwaitResult=&gt;util.control.TailCalls.TailRec[Unit],util.control.Exception.Catcher[util.control.TailCalls.TailRec[Unit]])],scala.util.Try[AwaitResult]]]"></a>
+      <a id="state:AtomicReference[Either[Queue[((AwaitResult)⇒TailRec[Unit],Catcher[TailRec[Unit]])],Try[AwaitResult]]]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">state</span><span class="result">: <span class="extype" name="java.util.concurrent.atomic.AtomicReference">AtomicReference</span>[<span class="extype" name="scala.Either">Either</span>[<span class="extype" name="scala.collection.immutable.Queue">Queue</span>[((<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>) ⇒ <span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>], <span class="extype" name="scala.util.control.Exception.Catcher">Catcher</span>[<span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>]])], <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]]]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@state:java.util.concurrent.atomic.AtomicReference[Either[scala.collection.immutable.Queue[(AwaitResult=&gt;util.control.TailCalls.TailRec[Unit],util.control.Exception.Catcher[util.control.TailCalls.TailRec[Unit]])],scala.util.Try[AwaitResult]]]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd></dl></div>
+    </li></ol>
+            </div>
 
         <div id="values" class="values members">
-              <h3>Value Members</h3>
+              <h3>Concrete Value Members</h3>
               <ol><li name="scala.Any#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="!=(x$1:Any):Boolean"></a>
       <a id="!=(Any):Boolean"></a>
@@ -188,19 +228,36 @@
     </span>)</span>
               
         </dd></dl></div>
-    </li><li name="com.qifun.statelessFuture.util.Promise#completeWith" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="completeWith(other:com.qifun.statelessFuture.Future[AwaitResult]):util.control.TailCalls.TailRec[Unit]"></a>
-      <a id="completeWith(Future[AwaitResult]):TailRec[Unit]"></a>
+    </li><li name="com.qifun.statelessFuture.util.Promise#complete" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="complete(value:scala.util.Try[AwaitResult]):util.control.TailCalls.TailRec[Unit]"></a>
+      <a id="complete(Try[AwaitResult]):TailRec[Unit]"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier">final </span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">completeWith</span><span class="params">(<span name="other">other: <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]</span>)</span><span class="result">: <span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>]</span>
+        <span class="name">complete</span><span class="params">(<span name="value">value: <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]</span>)</span><span class="result">: <span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>]</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@completeWith(other:com.qifun.statelessFuture.Future[AwaitResult]):util.control.TailCalls.TailRec[Unit]" title="Permalink" target="_top">
+      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@complete(value:scala.util.Try[AwaitResult]):util.control.TailCalls.TailRec[Unit]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="com.qifun.statelessFuture.util.Promise#completeWith" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="completeWith(other:com.qifun.statelessFuture.Future[AwaitResult]):Unit"></a>
+      <a id="completeWith(Future[AwaitResult]):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">completeWith</span><span class="params">(<span name="other">other: <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@completeWith(other:com.qifun.statelessFuture.Future[AwaitResult]):Unit" title="Permalink" target="_top">
         <img src="../../../../lib/permalink.png" />
       </a>
     </span>
@@ -212,10 +269,27 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">completeWith</span><span class="tparams">[<span name="OriginalAwaitResult">OriginalAwaitResult</span>]</span><span class="params">(<span name="other">other: <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.completeWith.OriginalAwaitResult">OriginalAwaitResult</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="view">view: (<span class="extype" name="com.qifun.statelessFuture.util.Promise.completeWith.OriginalAwaitResult">OriginalAwaitResult</span>) ⇒ <span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span></span>)</span><span class="result">: <span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>]</span>
+        <span class="name">completeWith</span><span class="tparams">[<span name="OriginalAwaitResult">OriginalAwaitResult</span>]</span><span class="params">(<span name="other">other: <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.completeWith.OriginalAwaitResult">OriginalAwaitResult</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="view">view: (<span class="extype" name="com.qifun.statelessFuture.util.Promise.completeWith.OriginalAwaitResult">OriginalAwaitResult</span>) ⇒ <span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4></div>
           </div></dl></div>
+    </li><li name="scala.Any#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@equals(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
     </li><li name="com.qifun.statelessFuture.Awaitable#flatMap" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="flatMap[ConvertedAwaitResult](converter:AwaitResult=&gt;com.qifun.statelessFuture.Awaitable[ConvertedAwaitResult,TailRecResult]):com.qifun.statelessFuture.Awaitable.Stateless[ConvertedAwaitResult,TailRecResult]"></a>
       <a id="flatMap[ConvertedAwaitResult]((AwaitResult)⇒Awaitable[ConvertedAwaitResult,Unit]):Stateless[ConvertedAwaitResult,Unit]"></a>
@@ -250,23 +324,23 @@
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Awaitable</dd></dl></div>
-    </li><li name="scala.AnyVal#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="getClass():Class[_&lt;:AnyVal]"></a>
-      <a id="getClass():Class[_&lt;:AnyVal]"></a>
+    </li><li name="scala.Any#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Predef.Class">Class</span>[_ &lt;: <span class="extype" name="scala.AnyVal">AnyVal</span>]</span>
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@getClass():Class[_&lt;:AnyVal]" title="Permalink" target="_top">
+      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@hashCode():Int" title="Permalink" target="_top">
         <img src="../../../../lib/permalink.png" />
       </a>
     </span>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyVal → Any</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
     </li><li name="com.qifun.statelessFuture.Awaitable.Stateful#isCompleted" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isCompleted:Boolean"></a>
       <a id="isCompleted:Boolean"></a>
@@ -335,23 +409,6 @@
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="com.qifun.statelessFuture.util.Promise">Promise</a> → Awaitable</dd></dl></div>
-    </li><li name="com.qifun.statelessFuture.util.Promise#state" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="state:java.util.concurrent.atomic.AtomicReference[Either[List[(AwaitResult=&gt;util.control.TailCalls.TailRec[Unit],util.control.Exception.Catcher[util.control.TailCalls.TailRec[Unit]])],scala.util.Try[AwaitResult]]]"></a>
-      <a id="state:AtomicReference[Either[List[((AwaitResult)⇒TailRec[Unit],Catcher[TailRec[Unit]])],Try[AwaitResult]]]"></a>
-      <h4 class="signature">
-      <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">val</span>
-      </span>
-      <span class="symbol">
-        <span class="name">state</span><span class="result">: <span class="extype" name="java.util.concurrent.atomic.AtomicReference">AtomicReference</span>[<span class="extype" name="scala.Either">Either</span>[<span class="extype" name="scala.List">List</span>[((<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>) ⇒ <span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>], <span class="extype" name="scala.util.control.Exception.Catcher">Catcher</span>[<span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>]])], <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]]]</span>
-      </span>
-      </h4><span class="permalink">
-      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@state:java.util.concurrent.atomic.AtomicReference[Either[List[(AwaitResult=&gt;util.control.TailCalls.TailRec[Unit],util.control.Exception.Catcher[util.control.TailCalls.TailRec[Unit]])],scala.util.Try[AwaitResult]]]" title="Permalink" target="_top">
-        <img src="../../../../lib/permalink.png" />
-      </a>
-    </span>
-      <p class="shortcomment cmt">The internal state that should never be accessed by other modules.</p>
     </li><li name="scala.Any#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="toString():String"></a>
       <a id="toString():String"></a>
@@ -369,19 +426,36 @@
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
-    </li><li name="com.qifun.statelessFuture.util.Promise#tryCompleteWith" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="tryCompleteWith(other:com.qifun.statelessFuture.Future[AwaitResult]):util.control.TailCalls.TailRec[Unit]"></a>
-      <a id="tryCompleteWith(Future[AwaitResult]):TailRec[Unit]"></a>
+    </li><li name="com.qifun.statelessFuture.util.Promise#tryComplete" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="tryComplete(value:scala.util.Try[AwaitResult]):util.control.TailCalls.TailRec[Unit]"></a>
+      <a id="tryComplete(Try[AwaitResult]):TailRec[Unit]"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier">final </span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">tryCompleteWith</span><span class="params">(<span name="other">other: <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]</span>)</span><span class="result">: <span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>]</span>
+        <span class="name">tryComplete</span><span class="params">(<span name="value">value: <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]</span>)</span><span class="result">: <span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>]</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@tryCompleteWith(other:com.qifun.statelessFuture.Future[AwaitResult]):util.control.TailCalls.TailRec[Unit]" title="Permalink" target="_top">
+      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@tryComplete(value:scala.util.Try[AwaitResult]):util.control.TailCalls.TailRec[Unit]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="com.qifun.statelessFuture.util.Promise#tryCompleteWith" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="tryCompleteWith(other:com.qifun.statelessFuture.Future[AwaitResult]):Unit"></a>
+      <a id="tryCompleteWith(Future[AwaitResult]):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">tryCompleteWith</span><span class="params">(<span name="other">other: <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.qifun.statelessFuture.util.Promise@tryCompleteWith(other:com.qifun.statelessFuture.Future[AwaitResult]):Unit" title="Permalink" target="_top">
         <img src="../../../../lib/permalink.png" />
       </a>
     </span>
@@ -393,7 +467,7 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">tryCompleteWith</span><span class="tparams">[<span name="OriginalAwaitResult">OriginalAwaitResult</span>]</span><span class="params">(<span name="other">other: <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.tryCompleteWith.OriginalAwaitResult">OriginalAwaitResult</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="view">view: (<span class="extype" name="com.qifun.statelessFuture.util.Promise.tryCompleteWith.OriginalAwaitResult">OriginalAwaitResult</span>) ⇒ <span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span></span>)</span><span class="result">: <span class="extype" name="scala.util.control.TailCalls.TailRec">TailRec</span>[<span class="extype" name="scala.Unit">Unit</span>]</span>
+        <span class="name">tryCompleteWith</span><span class="tparams">[<span name="OriginalAwaitResult">OriginalAwaitResult</span>]</span><span class="params">(<span name="other">other: <a href="../package.html#Future[+AwaitResult]=com.qifun.statelessFuture.Awaitable[AwaitResult,Unit]" class="extmbr" name="com.qifun.statelessFuture.Future">Future</a>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.tryCompleteWith.OriginalAwaitResult">OriginalAwaitResult</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="view">view: (<span class="extype" name="com.qifun.statelessFuture.util.Promise.tryCompleteWith.OriginalAwaitResult">OriginalAwaitResult</span>) ⇒ <span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4></div>
           </div></dl></div>
@@ -444,8 +518,6 @@
               <h3>Inherited from <span class="extype" name="com.qifun.statelessFuture.Awaitable.Stateful">Stateful</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>, <span class="extype" name="scala.Unit">Unit</span>]</h3>
             </div><div class="parent" name="com.qifun.statelessFuture.Awaitable">
               <h3>Inherited from <span class="extype" name="com.qifun.statelessFuture.Awaitable">Awaitable</span>[<span class="extype" name="com.qifun.statelessFuture.util.Promise.AwaitResult">AwaitResult</span>, <span class="extype" name="scala.Unit">Unit</span>]</h3>
-            </div><div class="parent" name="scala.AnyVal">
-              <h3>Inherited from <span class="extype" name="scala.AnyVal">AnyVal</span></h3>
             </div><div class="parent" name="scala.Any">
               <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
             </div>
